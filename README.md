@@ -42,6 +42,21 @@ Display and dequeue canceled ticket information.
 - The seating arrangement is displayed on load.
 - Use the provided options to book, cancel, or search for tickets.
 
+## Screenshots
+- Website
+![Whole Webpage](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/Whole%20webpage.png)
+- Booking a Ticket
+![Booking a Ticket](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/Booking%20a%20Ticket.png)
+- Booked Ticket (in GREEN)
+![Booked Ticket (in GREEN)](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/Booked%20Ticket%20(GREEN).png)
+- Cancelled Tickets
+![](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/Cancelled%20Tickets.png)
+- Options to Display the Booked Tickets.png
+![Options to Display the Booked Tickets.png](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/Options%20to%20Display%20the%20Booked%20Tickets.png)
+- Booked Tickets
+![Booked Tickets](https://github.com/Anurag1698/Ticket-Booking-System/blob/8d7fac3e5a7d8ed07c452f4683a84b98ff42b45e/Screenshots/List%20of%20Booked%20Tickets.png)
+
+
 ## Future Enhancements
 - Integration with a database for persistent storage.
 - User authentication for secure booking.

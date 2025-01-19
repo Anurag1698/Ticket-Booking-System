@@ -1,0 +1,193 @@
+/* CSS code for the ticket booking system */
+body{
+    background-color: rgba(0, 0, 0, 0.846);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.theatre{
+    margin-left:100px;
+    margin-bottom: 100px;
+    height: 1300px;
+    width:1200px;
+    border: 1px solid grey;
+    transition: 1s;
+}
+
+.theatre:hover{
+    box-shadow: 0px 0px 8px 8px rgb(146, 132, 132);
+}
+
+#container{
+    align-items: center;
+    padding-left: 150px;
+    height: 100px;
+    width: 900px;
+    font-size: 30px;
+    text-align: center;
+    transition: 1s;
+    color: rgb(210, 216, 216);
+    padding:0 3px 0 3px;
+    margin-left: 140px;
+    margin-right: 240px;
+    box-shadow: 2px 2px 5px 5px rgb(2, 175, 202); 
+}
+
+#container:hover{
+    font-size: 35px;
+    color: aquamarine;
+    box-shadow: 5px 5px 8px 8px rgb(2, 175, 202); 
+    
+}
+
+#seats-container {
+    display: grid;
+    grid-template-columns: repeat(8, 90px);
+    grid-gap: 12px;
+    grid-row-gap: 16px ;
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 320px;
+}
+
+.seat {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    color: grey;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    background-color: rgb(29, 26, 26);
+    cursor: pointer;
+    box-shadow: 1px 1px 6px 2px rgb(2, 175, 202); 
+    transition: 0.3s;
+}
+
+.seat:hover{
+    box-shadow: 2px 2px 5px 5px rgb(2, 92, 188); 
+}
+.available {
+    background-color: #0000ff; /* Blue for available seats */
+    color: white;
+}
+
+.booked {
+    background-color: #00ff00; /* Green for booked seats */
+    color: white;
+}
+
+.buttons
+{
+    margin-top: 100px;
+    margin-left: 480px;
+    margin-right: 300px;
+    margin-bottom: 150px;
+    transition: 1s;
+}
+
+button{
+    border: 1px solid green;
+}
+
+button:hover{
+    border: 2px solid green;
+}
+
+#click1{
+    display: block;
+    width: 200px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;    
+    margin:20px;
+    border-radius:10px; 
+    transition: 0.8s;
+}
+#click3{
+    display: block;
+    width: 200px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;  
+    margin:20px;
+    border-radius:10px;  
+    transition: 0.8s;  
+}
+#click2{
+    display: block;
+    width: 200px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;  
+    margin:20px;
+    border-radius:10px;    
+    transition: 0.8s;
+}
+
+#click4{
+    display: block;
+    width: 200px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;  
+    margin:20px;
+    border-radius:10px;    
+    transition: 0.8s;
+}
+
+#click5{
+    display: block;
+    width: 200px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;  
+    margin:20px;
+    border-radius:10px;    
+    transition: 0.8s;
+}
+
+#click1:hover{
+    background-color: #4a624a;
+}
+
+#click2:hover{
+    background-color: #4a624a;
+}
+
+#click3:hover{
+    background-color: #4a624a;
+}
+
+#click4:hover{
+    background-color: #4a624a;
+}
+
+#click5:hover{
+    background-color: #4a624a;
+}
